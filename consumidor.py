@@ -76,7 +76,7 @@ class Producer(Thread):
             sleep(rnd)
             print ("appending %d to queue" % i)
             self.queue.append(i)
-        print ("production terminated")
+        print ("Productor terminado")
 		
 def main():
 	"""
