@@ -32,7 +32,7 @@ class Consumer(Thread):
 					print ("Popped %d from queue" %i)
 					break
 				except IndexError:
-					print ("Wait a second...")
+					print ("Espera un segundo...")
 					sleep(1)
 		print("Consumption terminated")
 		
